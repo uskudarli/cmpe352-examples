@@ -1,9 +1,7 @@
-
 from flask import Flask, jsonify
 from flask import make_response
 from flask import abort
 from flask import request
-
 
 app = Flask(__name__)
 
