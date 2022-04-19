@@ -1,0 +1,23 @@
+<!doctype html>
+
+<title>Hello World!!</title>
+
+{% if color %}
+
+    <p style="text-align:center; font-family: verdana, arial, sans-serif;
+            font-size: 22px; color:{{ color }};"> Hello World!!</p>
+
+{% else %}
+
+    <p>Hello World!!</p>
+
+{% endif %}
+
+<div style="text-align:center; font-family: verdana, arial, sans-serif;
+            font-size: 22px; color:{{ color }};">
+<form method="POST">
+    Enter your name: <input name="peep"/>
+    <button type="submit" name="submit">Submit</button>
+</form>
+</div>
+
