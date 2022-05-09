@@ -1,0 +1,11 @@
+Click==7.0
+Flask==1.0.2
+itsdangerous==1.1.0
+Jinja2==2.11.2
+MarkupSafe==1.1.0
+Werkzeug==0.14.1
+xmlrunner==1.7.7
+html-testRunner==1.2.1
+unittest-xml-reporting~=3.0.2
+junit-xml==1.9
+junit-reports==2020.1.2
