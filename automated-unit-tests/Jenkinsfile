@@ -5,7 +5,7 @@ pipeline {
     stage('build') {
       steps {
         sh 'pip install --upgrade pip'
-        sh 'python -m pip install -r ./automated-unit-tests/Jenkinsfile/requirements.txt'
+        sh 'python -m pip install -r ./automated-unit-tests/requirements.txt'
       }
     }
     stage('test') {
