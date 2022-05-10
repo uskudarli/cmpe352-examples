@@ -21,7 +21,7 @@ class HTML_TestRunner_TestSuite(unittest.TestCase):
 
         # create output for running suite result
 
-        output_file = open(current_directory + "/automated-unit-tests/reports/HTML_Test_Runner_ReportTest.html", "w")
+        output_file = open(current_directory + "/reports/HTML_Test_Runner_ReportTest.html", "w")
 
         html_runner = HtmlTestRunner.HTMLTestRunner(
             stream=output_file,
