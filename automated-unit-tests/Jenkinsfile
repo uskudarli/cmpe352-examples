@@ -11,7 +11,7 @@ pipeline {
     stage('test') {
       steps {
         sh 'pwd;ls *'
-        sh 'python automated_unit_tests/test_suite.py'
+        sh 'python ./automated-unit-tests/test_suite.py'
 
       }
     }
