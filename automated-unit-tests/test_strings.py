@@ -25,5 +25,5 @@ class TestStringMethods(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    runner = xmlrunner.XMLTestRunner(output='./reports')
+    runner = xmlrunner.XMLTestRunner(output='./automated-unit-tests/reports')
     unittest.main(testRunner=runner)
