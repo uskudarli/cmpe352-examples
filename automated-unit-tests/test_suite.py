@@ -34,5 +34,5 @@ class HTML_TestRunner_TestSuite(unittest.TestCase):
 # main function to call unittests
 
 if __name__ == '__main__':
-    unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output='reports/html/'))
+    unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output='automated-unit-tests/reports/html/'))
 
