@@ -25,6 +25,7 @@ class HTML_TestRunner_TestSuite(unittest.TestCase):
 
         html_runner = HtmlTestRunner.HTMLTestRunner(
             stream=output_file,
+            combine_reports=True,
             report_title='HTML Report for Unit Tests',
             descriptions='HTML Reporting using HTMLTestRunner')
 
