@@ -37,5 +37,5 @@ if __name__ == '__main__':
     test_loader = unittest.TestLoader()
     package_tests = test_loader.discover(start_dir=root_dir)
 
-    runner = xmlrunner.XMLTestRunner(output='./reports/xml/')
+    runner = xmlrunner.XMLTestRunner(output='./automated-unit-tests/reports/xml/')
     unittest.main(testRunner=runner)
